@@ -1,1 +1,1 @@
-# rock-paper-scrissors
+A game that you can play with the computer in the browser's console. The game asks for your choice via a prompt. The computer chooses random rock, paper or scrissors and the result are compered. The one with the higher score in 5 rounds wins.
