@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='UTF-8' />
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <script src = "script.js"></script>
+    <h1 class="heading">Rock, Paper, Scissors!</h1>
+    <p>
+      In this game you are going to play against the computer. Who wins first 3
+      rounds wins the game!
+    </p>
+    <div>
+      Select a choice:
+      <select class="choice">
+        <option value="rock">Rock</option>
+        <option value="paper">Paper</option>
+        <option value="scissors">Scissors</option>
+      </select>
+      <button class="play">Play</button>
+      <p class="result"></p>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
